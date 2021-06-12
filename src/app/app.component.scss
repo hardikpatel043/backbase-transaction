@@ -1,0 +1,21 @@
+@import "./styles/variables";
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &__logo {
+    padding: 1rem;
+    border-bottom: 1px solid $border-color;
+  }
+
+  &__transaction {
+    flex: auto;
+  }
+
+  &__footer {
+    z-index: 2;
+    background: $bacaground-color;
+  }
+}
