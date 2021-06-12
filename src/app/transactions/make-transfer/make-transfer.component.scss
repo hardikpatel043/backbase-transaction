@@ -1,0 +1,27 @@
+@import "../../../styles/variables";
+
+.card {
+  .card-header {
+    display: flex;
+    align-items: center;
+    background-color: $title-background-color;
+    color: white;
+  }
+
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  .transfer-icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: white;
+  }
+
+  .submit-btn {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
